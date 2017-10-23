@@ -21,5 +21,15 @@ namespace WindowsFormsApplication1
         {
             
         }
+
+        private void changeText_Click(object sender, EventArgs e)
+        {
+            this.changeText.Text = "Time " + DateTime.Now.ToLongTimeString();
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
